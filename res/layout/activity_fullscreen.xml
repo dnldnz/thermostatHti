@@ -42,6 +42,13 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent" >
 
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
             <Button
                 android:id="@+id/button_home"
                 style="?metaButtonBarButtonStyle"
