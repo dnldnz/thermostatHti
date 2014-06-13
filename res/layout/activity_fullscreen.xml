@@ -43,21 +43,13 @@
             tools:ignore="UselessParent" >
 
             <Button
-                android:id="@+id/dummy_button"
+                android:id="@+id/button_home"
                 style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:text="Home" />
         </LinearLayout>
-
-        <Button
-            android:id="@+id/button1"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="THIS IS A GREAT SUCCESS" />
-
     </FrameLayout>
 
 </FrameLayout>
