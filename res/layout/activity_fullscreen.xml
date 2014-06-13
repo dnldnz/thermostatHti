@@ -10,16 +10,7 @@
 
     <!--
          This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows.
-
-
-
-
-
-
-
-
-
+         android:fitsSystemWindows.
     -->
 
     <FrameLayout
@@ -42,7 +33,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_launcher"
-            android:text="Home" />
+            android:text="Home" 
+            android:onClick="sendMessage" />
 
         <Button
             android:id="@+id/button2"
@@ -60,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_launcher"
-            android:text="..." />
+            android:text="Settings" />
 
     </LinearLayout>
 
